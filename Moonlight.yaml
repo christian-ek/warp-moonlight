@@ -1,0 +1,23 @@
+background: "#222436" # A dark gray for the background, using --moonlight-gray-4
+accent: "#7f85a3"     # A desaturated gray as the accent, using --moonlight-desaturated-gray
+foreground: "#C9D1E0" # A bright foreground
+details: darker
+terminal_colors:
+  normal:
+    black: "#000000"          # Plain black
+    red: "#ff757f"            # --moonlight-red
+    green: "#c3e88d"          # --moonlight-green
+    yellow: "#ffc777"         # --moonlight-yellow
+    blue: "#82aaff"           # --moonlight-blue
+    magenta: "#c099ff"        # --moonlight-purple
+    cyan: "#86e1fc"           # --moonlight-cyan
+    white: "#c8d3f5"          # --moonlight-gray-10
+  bright:
+    black: "#828bb8"          # --moonlight-gray-7
+    red: "#ff5370"            # --moonlight-dark-red
+    green: "#c3e88d"          # Using the same green for bright as well since no other distinct green was provided
+    yellow: "#ffc777"         # Using the same yellow for bright as well since no other distinct yellow was provided
+    blue: "#82aaff"           # Using the same blue for bright as well since no other distinct blue was provided
+    magenta: "#c099ff"        # Using the same magenta for bright as well since no other distinct magenta was provided
+    cyan: "#b4f9f8"           # --moonlight-bright-cyan
+    white: "#c8d3f5"          # Using the same white for bright as well since no other distinct white was provided
